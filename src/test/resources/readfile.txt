@@ -1,0 +1,5 @@
+Java
+C#.Net
+Selenium
+SQL Server
+Teradata
