@@ -18,8 +18,8 @@ public class TestNGDemo {
 	  System.out.println("I am firstTest");
   }
   
-  @Test
-  public void secondTest() {
+  @Test (enabled = false)
+  void secondTest() {
 	  System.out.println("I am secondTest");
 	  Assert.fail("failed as we are tesing the apps with invalid data");
   }

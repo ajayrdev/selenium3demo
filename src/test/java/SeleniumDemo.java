@@ -8,7 +8,6 @@ public class SeleniumDemo {
 	public void firstTest() {
 		WebDriver driver = null;
 		try {
-
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\DELLA\\eclipse-workspace\\selenium3demo\\src\\test\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();

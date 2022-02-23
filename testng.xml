@@ -2,15 +2,19 @@
 
 <suite name="Smoke Suite" verbose="1">
 
-	<test name="app login Tests">
+	<!--	<test name="app login Tests">
 		<classes>
 			<class name="selenium3demo.com.testng.TestNGDemo" />
 		</classes>
-	</test>
+	</test>  -->
 
-	<test name="app homepage Tests">
+	<test name="Author verification">
+		<parameter name="Admin" value="Kumar"></parameter>
+		<parameter name="User" value="Ajay"></parameter>
+		<parameter name="UnAuthorized" value="IronMan"></parameter>
+        <parameter name="Browser" value="Chrome"></parameter>
 		<classes>
-			<class name="selenium3demo.com.testng.TestNGDemo" />
+			<class name="selenium3demo.com.testng.CrossBrowserTests" />
 		</classes>
 	</test>
 </suite>
