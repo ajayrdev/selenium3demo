@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Author verification(failed)">
-    <parameter name="User" value="Ajay"/>
-    <parameter name="UnAuthorized" value="IronMan"/>
-    <parameter name="Admin" value="Kumar"/>
-    <parameter name="Browser" value="Firefox"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium3demo.com.testng.CrossBrowserTests">
+      <class name="com.practicetestng.Locators">
         <methods>
-          <include name="testWithGivenBrowser" invocation-numbers="0"/>
+          <include name="testLocators"/>
         </methods>
-      </class> <!-- selenium3demo.com.testng.CrossBrowserTests -->
+      </class> <!-- com.practicetestng.Locators -->
     </classes>
-  </test> <!-- Author verification(failed) -->
-</suite> <!-- Failed suite [Smoke Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium3demo.com.testng.CrossBrowserTests">
+      <class name="com.practicetestng.Locators">
         <methods>
-          <include name="testWithMutliUsers"/>
+          <include name="testLocators"/>
         </methods>
-      </class> <!-- selenium3demo.com.testng.CrossBrowserTests -->
+      </class> <!-- com.practicetestng.Locators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,9 +12,9 @@
 		<parameter name="Admin" value="Kumar"></parameter>
 		<parameter name="User" value="Ajay"></parameter>
 		<parameter name="UnAuthorized" value="IronMan"></parameter>
-        <parameter name="Browser" value="Chrome"></parameter>
+		<parameter name="Browser" value="Chrome"></parameter>
 		<classes>
-			<class name="selenium3demo.com.testng.CrossBrowserTests" />
+			<class name="com.practicetestng.DataProviderPractice" />
 		</classes>
 	</test>
 </suite>

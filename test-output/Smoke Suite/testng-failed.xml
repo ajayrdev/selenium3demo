@@ -5,13 +5,13 @@
     <parameter name="User" value="Ajay"/>
     <parameter name="UnAuthorized" value="IronMan"/>
     <parameter name="Admin" value="Kumar"/>
-    <parameter name="Browser" value="Firefox"/>
+    <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="selenium3demo.com.testng.CrossBrowserTests">
+      <class name="com.practicetestng.DataProviderPractice">
         <methods>
-          <include name="testWithGivenBrowser" invocation-numbers="0"/>
+          <include name="dataProviderTestCase1" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- selenium3demo.com.testng.CrossBrowserTests -->
+      </class> <!-- com.practicetestng.DataProviderPractice -->
     </classes>
   </test> <!-- Author verification(failed) -->
 </suite> <!-- Failed suite [Smoke Suite] -->
